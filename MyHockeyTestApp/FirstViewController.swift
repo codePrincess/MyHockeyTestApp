@@ -1,12 +1,11 @@
-//
-//  FirstViewController.swift
-//  MyHockeyTestApp
-//
-//  Created by Manu Rink on 07/06/16.
-//  Copyright © 2016 Manu Rink. All rights reserved.
-//
 
 import UIKit
+import HockeySDK
+
+enum MyError: ErrorType {
+    case ErrorOne
+    case ErrorTwo (reason: String)
+}
 
 class FirstViewController: UIViewController {
 
@@ -20,6 +19,12 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func crashApp(sender: AnyObject) throws {
+//        BITHockeyManager.sharedHockeyManager().crashManager.generateTestCrash()
+        let number = "0"
+        let result = 1 / Int(number)!
+        print(result)
+    }
 
 }
 

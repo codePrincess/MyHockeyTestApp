@@ -51,7 +51,6 @@
 		2098BA1F1D07118F00E6D35B /* MyHockeyTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHockeyTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2098BA231D07118F00E6D35B /* MyHockeyTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHockeyTestAppUITests.swift; sourceTree = "<group>"; };
 		2098BA251D07118F00E6D35B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2098BA341D07126500E6D35B /* MyHockeyTestApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyHockeyTestApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		2098BA371D0712B200E6D35B /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework"; sourceTree = "<group>"; };
 		2098BA391D07136A00E6D35B /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = HockeySDKResources.bundle; path = "HockeySDK-iOS/HockeySDK.embeddedframework/Resources/HockeySDKResources.bundle"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,7 +90,6 @@
 				2098BA171D07118F00E6D35B /* MyHockeyTestAppTests */,
 				2098BA221D07118F00E6D35B /* MyHockeyTestAppUITests */,
 				2098B9FF1D07118F00E6D35B /* Products */,
-				2098BA341D07126500E6D35B /* MyHockeyTestApp-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};

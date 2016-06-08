@@ -19,12 +19,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
-        BITHockeyManager.sharedHockeyManager().configureWithIdentifier("39278c9676ba4ee6b53559c599786c66")
+        BITHockeyManager.sharedHockeyManager().configureWithIdentifier("65f2e41affc54d9993a396c81c9c4f92")
         BITHockeyManager.sharedHockeyManager().logLevel = BITLogLevel.Verbose
 //        BITHockeyManager.sharedHockeyManager().disableCrashManager = false
 //        BITHockeyManager.sharedHockeyManager().crashManager.crashManagerStatus = BITCrashManagerStatus.AutoSend
         BITHockeyManager.sharedHockeyManager().startManager()
         BITHockeyManager.sharedHockeyManager().authenticator.authenticateInstallation()
+        
+        let metricsManager = BITHockeyManager.sharedHockeyManager().metricsManager
+        metricsManager.trackEventWithName("appInitializedAndStarted")
         
         
         return true

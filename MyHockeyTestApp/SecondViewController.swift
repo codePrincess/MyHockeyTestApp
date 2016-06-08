@@ -7,6 +7,9 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let metricsManager = BITHockeyManager.sharedHockeyManager().metricsManager
+        metricsManager.trackEventWithName("secondVCloaded")
     }
 
     override func didReceiveMemoryWarning() {

@@ -14,10 +14,10 @@ class IntelligentTabbarController:  UITabBarController, UITabBarControllerDelega
         let metricsManager = BITHockeyManager.sharedHockeyManager().metricsManager
         
         if viewController is FirstViewController {
-            metricsManager.trackEventWithName("FirstViewController-gotSelected")
+            metricsManager.trackEventWithName("FirstViewController")
         }
         else if viewController is SecondViewController {
-            metricsManager.trackEventWithName("SecondViewController-gotSelected")
+            metricsManager.trackEventWithName("SecondViewController")
         }
     }
 

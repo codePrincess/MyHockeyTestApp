@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         BITHockeyManager.sharedHockeyManager().configureWithIdentifier("39278c9676ba4ee6b53559c599786c66")
+        BITHockeyManager.sharedHockeyManager().logLevel = BITLogLevel.Verbose
 //        BITHockeyManager.sharedHockeyManager().disableCrashManager = false
 //        BITHockeyManager.sharedHockeyManager().crashManager.crashManagerStatus = BITCrashManagerStatus.AutoSend
         BITHockeyManager.sharedHockeyManager().startManager()

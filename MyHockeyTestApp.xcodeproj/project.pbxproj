@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		203BFEE51D084E5D00E0C7DA /* IntelligentTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203BFEE41D084E5D00E0C7DA /* IntelligentTabbarController.swift */; };
 		2098BA021D07118F00E6D35B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098BA011D07118F00E6D35B /* AppDelegate.swift */; };
 		2098BA041D07118F00E6D35B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098BA031D07118F00E6D35B /* FirstViewController.swift */; };
 		2098BA061D07118F00E6D35B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2098BA051D07118F00E6D35B /* SecondViewController.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		203BFEE31D084D3C00E0C7DA /* MyHockeyTestApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyHockeyTestApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		203BFEE41D084E5D00E0C7DA /* IntelligentTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntelligentTabbarController.swift; sourceTree = "<group>"; };
 		2098B9FE1D07118F00E6D35B /* MyHockeyTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHockeyTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2098BA011D07118F00E6D35B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2098BA031D07118F00E6D35B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				2098BA0A1D07118F00E6D35B /* Assets.xcassets */,
 				2098BA0C1D07118F00E6D35B /* LaunchScreen.storyboard */,
 				2098BA0F1D07118F00E6D35B /* Info.plist */,
+				203BFEE41D084E5D00E0C7DA /* IntelligentTabbarController.swift */,
 			);
 			path = MyHockeyTestApp;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2098BA061D07118F00E6D35B /* SecondViewController.swift in Sources */,
+				203BFEE51D084E5D00E0C7DA /* IntelligentTabbarController.swift in Sources */,
 				2098BA021D07118F00E6D35B /* AppDelegate.swift in Sources */,
 				2098BA041D07118F00E6D35B /* FirstViewController.swift in Sources */,
 			);

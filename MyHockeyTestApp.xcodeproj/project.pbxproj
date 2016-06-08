@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		203BFEE31D084D3C00E0C7DA /* MyHockeyTestApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyHockeyTestApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		2098B9FE1D07118F00E6D35B /* MyHockeyTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHockeyTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2098BA011D07118F00E6D35B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2098BA031D07118F00E6D35B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +91,7 @@
 				2098BA171D07118F00E6D35B /* MyHockeyTestAppTests */,
 				2098BA221D07118F00E6D35B /* MyHockeyTestAppUITests */,
 				2098B9FF1D07118F00E6D35B /* Products */,
+				203BFEE31D084D3C00E0C7DA /* MyHockeyTestApp-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
